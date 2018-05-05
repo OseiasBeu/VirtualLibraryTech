@@ -6,10 +6,7 @@ flex-wrap: wrap;
 }
 .capa{
     width: 250px;
-    height: 250px;
+    height: 80vh;
     border: 2px solid black;
-    /* margin-top: 10px;
-    margin-left: auto; */
     margin: 10px auto;
-    /* margin:5px; */
 }

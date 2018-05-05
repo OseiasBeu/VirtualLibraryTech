@@ -4,12 +4,9 @@ import './Livro.css';
 class Livro extends Component{
     render(){
         return(
-            <section className="capapai">
-                <div className="capa"></div>
-                <div className="capa"></div>
-                <div className="capa"></div>
-                <div className="capa"></div>
-            </section>
+            
+                <div className="capa">{this.props.texto}</div>
+                
         );
     }
     

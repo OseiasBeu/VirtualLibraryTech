@@ -7,8 +7,13 @@ class Sumario extends Component{
         return(
             <aside>
                 <p>Sumário</p>
-                <Itemsumario item="Introdução ao Frontend"/>
-
+                <Itemsumario item="Introdução"/>
+                <Itemsumario item="HTML"/>
+                <Itemsumario item="CSS"/>
+                <Itemsumario item="JavaScript"/>
+                <Itemsumario item="React"/>
+                <Itemsumario item="Angular"/>
+                <Itemsumario item="API"/>
             </aside>
         )
     }
