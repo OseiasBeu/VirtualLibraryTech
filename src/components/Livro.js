@@ -1,11 +1,18 @@
 import React,{Component} from 'react';
 import './Livro.css';
+// import imagem from './hmtl.png'
+
 
 class Livro extends Component{
     render(){
         return(
             
-                <div className="capa">{this.props.texto}</div>
+                <div className="capa">
+                 <img src={this.props.src}/>
+                 <img src={this.props.src}/>
+                 <img src={this.props.src}/>
+                 <img src={this.props.src}/>
+                  </div>
                 
         );
     }
@@ -13,3 +20,4 @@ class Livro extends Component{
 }
 
 export default Livro;
+

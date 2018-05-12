@@ -5,7 +5,7 @@ class Itemsumario extends Component{
     render(){
         return(
             <ul>
-                <li>{this.props.item}</li>
+                <li className="item">{this.props.item}</li>
             </ul>
         );
     }

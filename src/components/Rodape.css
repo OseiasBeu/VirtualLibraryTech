@@ -1,16 +1,49 @@
 footer{
     background-color: black;
     width: 100%;
-    height: 50px;
-    /* justify-items: center; */
-    margin: 0px;
-    /* text-align: center; */
+    color:whitesmoke;
+    margin-bottom: 0px;
 }
-
 
 h1{
     text-transform: uppercase;
     font-size: 20pt;
     font-weight: bolder;
-    color: white;
+}
+
+.blocos{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.listas{
+    /* border:2px solid blue; */
+    width: 15%;
+}
+.icones{
+    /* border:2px solid white; */
+    height: 35px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.icones img{
+    width: 30px;
+    height:30px;
+}
+
+.parceria img{
+width: 100px;
+}
+.parceria{
+    height: 50px;
+}
+
+
+footer p{
+    font-weight: 50;
+    text-align: center;
+    
+
 }

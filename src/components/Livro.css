@@ -1,12 +1,16 @@
 .capapai{
     display: flex;
-flex-wrap: wrap;
+    flex-wrap: wrap;
     /* border:2px solid green; */
-
 }
 .capa{
     width: 250px;
-    height: 80vh;
-    border: 2px solid black;
+    height: 82vh;
+    border-left: 2px solid black;
     margin: 10px auto;
+    margin-bottom: 0px;
+}
+img{
+    width: 200px;
+    height: 100px;
 }
