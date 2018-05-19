@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
+import {Switch,BrowserRoute,Route, Link} from 'react-router-dom';
 import './App.css';
 import Header from './Header';
 import Sumario from './Sumario';
 import Capapai from './Capapai';
-import Livro from './Livro';
 import Rodape from './Rodape';
 
 
@@ -13,7 +13,10 @@ class App extends Component {
       <div>
         <Header/>
         <Sumario/>
-        <Capapai/>
+        
+          <Capapai/>
+        
+
         <Rodape/>
   
       </div>
