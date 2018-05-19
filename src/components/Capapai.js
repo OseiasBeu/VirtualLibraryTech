@@ -9,12 +9,12 @@ class Capapai extends Component{
     render(){
         return(
             <section className="capapai">
-            <main>
+            
                 <Livro texto="Semana1" />
                 <Livro texto="Semana2" />
                 <Livro texto="Semana3"/>
                 <Livro texto="Semana4"/>
-             </main>
+             
             </section>
         );  
     }
