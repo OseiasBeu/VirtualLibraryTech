@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import './Rodape.css';
+import './ResponsiveRodape.css';
 import iconFace from './../img/icon-face.png';
 import iconYou from './../img/icon-youtube.png';
 import iconInsta from './../img/icon-insta.png';
@@ -9,11 +10,12 @@ import iconInsta from './../img/icon-insta.png';
 class Rodape extends Component{
     render(){
         return(
-            <footer>
+        <footer>
                
-                <section className="blocos">
+            <section className="blocos">
                 <ul className="listas">
-                <h2>Estação Hack</h2>
+                <h3>Estação Hack</h3>
+                
                 <li>O projeto</li>
                 <li>Motivação Social</li>
                 <li>Como Funciona</li>
@@ -22,7 +24,7 @@ class Rodape extends Component{
                 </ul>
 
                 <ul className="listas">
-                <h2>Fique por dentro</h2>
+                <h3>Fique por dentro</h3>
                 <div className=" icones">
                 <li><img src={iconFace}/></li>
                 <li><img src={iconYou}/></li>
@@ -31,16 +33,18 @@ class Rodape extends Component{
                 </ul>
 
                 <ul className="listas">
-                <h2>Realização</h2>
+                <h3>Realização</h3>
                 <div className="parceria">
                 <li>FACEBOOK  [IMAGEM]</li>
                 <li>MASTERTECH [IMAGEM]</li>
                 </div>
                 </ul>
 
-                </section>
-                <p>Dúvidas? mande um e-mail para: estacaohack@mastertech.tech</p>
-            </footer>
+            </section>
+                <h4>Dúvidas?</h4>
+                <p>mande um e-mail para:</p>
+                <p>estacaohack@mastertech.tech</p>
+         </footer>
 
         );
     }

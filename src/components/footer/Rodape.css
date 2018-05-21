@@ -1,14 +1,14 @@
 footer{
     background-color: black;
     width: 100%;
-    color:whitesmoke;
-    margin-bottom: 0px;
+    color:white;
+    margin-bottom: 0px;    
+    line-height: 1.5;
 }
 
 h1{
     text-transform: uppercase;
     font-size: 20pt;
-    font-weight: bolder;
 }
 
 .blocos{
@@ -16,12 +16,16 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
 }
-.listas{
-    /* border:2px solid blue; */
-    width: 15%;
+
+.blocos ul li{
+    list-style-type: none;
 }
+
+.listas{
+    padding-top:10px;
+}
+
 .icones{
-    /* border:2px solid white; */
     height: 35px;
     display: flex;
     flex-wrap: nowrap;
@@ -29,8 +33,10 @@ justify-content: space-around;
 }
 
 .icones img{
-    width: 30px;
-    height:30px;
+    width: 50px;
+    height:50px;
+    padding-left: 5px;
+    
 }
 
 .parceria img{
@@ -42,6 +48,10 @@ width: 100px;
 
 
 footer p{
-    font-weight: 50;
     text-align: center;
 }
+
+footer h4{
+    text-align: center;
+}
+
