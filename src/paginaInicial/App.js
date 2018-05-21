@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Switch,BrowserRoute,Route, Link} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 import './App.css';
 import Header from './../components/header/Header';
 import Sumario from './../components/sumario/Sumario';

@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import {Route,Link,Switch} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './Livro.css';
 
 
@@ -12,9 +12,7 @@ class Livro extends Component{
                  <img src={this.props.src}/>
                  <img src={this.props.src}/>
                  <img src={this.props.src}/>
-                
-
-                  </div>
+                </div>
                 
         );
     }
