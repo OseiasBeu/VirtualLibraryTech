@@ -1,8 +1,6 @@
 import React,{Component} from 'react';
 import {Route,Link,Switch} from 'react-router-dom';
 import './Livro.css';
-// import livrohtml from '../components/livro1Html/Paginahtml';
-// import imagem from './hmtl.png'
 
 
 class Livro extends Component{
@@ -10,7 +8,7 @@ class Livro extends Component{
         return(
             
                 <div className="capa">
-                <Link to="livrohtml"> <img src={this.props.src}/></Link>
+                <Link to="livroHTML"> <img src={this.props.src}/></Link>
                  <img src={this.props.src}/>
                  <img src={this.props.src}/>
                  <img src={this.props.src}/>

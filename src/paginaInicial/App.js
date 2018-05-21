@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import {Switch,BrowserRoute,Route, Link} from 'react-router-dom';
 import './App.css';
-import Header from './Header';
-import Sumario from './Sumario';
-import Capapai from './Capapai';
-import Rodape from './Rodape';
-import Paginahtml from './livro1Html/Paginahtml';
+import Header from './../components/Header';
+import Sumario from './../components/Sumario';
+import Capapai from './../components/Capapai';
+import Rodape from './../components/Rodape';
+import livroHTML from './../segundaPagina/FirstBook';
 
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
         <Sumario/>
         
         <Route path="/" exact component={()=> <Capapai/>}/>
-        <Route path="/Livrohtml" exact component={()=> <Paginahtml/>}/>        
+        <Route path="/livroHTML" exact component={()=> <livroHTML/>}/>        
 
         <Rodape/>
   

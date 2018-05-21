@@ -1,8 +1,8 @@
 import React,{Component}  from 'react';
 
-import './html.css';
+import './FirstBook.css';
 
-class Paginahtml extends Component{
+class FirstBook extends Component{
     
     render(){
         return(
@@ -12,4 +12,4 @@ class Paginahtml extends Component{
 }
 console.log('Chegou!');
 
-export default Paginahtml;
+export default FirstBook;
