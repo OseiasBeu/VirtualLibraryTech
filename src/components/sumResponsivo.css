@@ -88,13 +88,36 @@ input#control-nav {
 }
 
 @media screen and (max-width: 480px) {
+  header{
+    text-align: center;
+    
+  }
   aside h1 {
     font-size: 20px;
     line-height: 40px;
+    display:none;
   }
 }
 
 @media screen and (max-width: 767px) {
+  header{
+    text-align: center;
+    /* width: 118%; */
+    overflow-x: hidden;
+  }
+  aside{
+    background-color: white;
+    border: none;
+    position: relative;
+    left: 10%;
+    height: 10px;
+    width: 1px;
+    /* position: fixed; */
+    
+  }
+  aside h1{
+    display:none;
+  }
   aside nav {
     position: fixed;
     top: 0;
@@ -132,8 +155,8 @@ input#control-nav {
 
   .control-nav { /* label icon */
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 50px;
+    top: -45px;
     display: block;
     width: 30px;
     padding: 5px 0;

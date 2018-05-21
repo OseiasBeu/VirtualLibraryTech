@@ -8,15 +8,15 @@ class Sumario extends Component{
             <aside>
                
           <h1 class="float-l">
-          <a href="#" title="Titulo do Site">Sumário</a>
-        </h1>
-        
-        <input type="checkbox" id="control-nav" />
-        <label for="control-nav" class="control-nav"></label>
-        <label for="control-nav" class="control-nav-close"></label>
+            <a href="#" title="Titulo do Site">Sumário</a>
+          </h1>
+          
+          <input type="checkbox" id="control-nav" />
+          <label for="control-nav" class="control-nav"></label>
+          <label for="control-nav" class="control-nav-close"></label>
 
         <nav class="float-r">
-          <ul class="list-auto">
+            <ul class="list-auto">
             <li>
               <a href="#html" title="html">HTML</a>
             </li>
