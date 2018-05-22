@@ -8,7 +8,7 @@
 .list-full, .list-full li,
 .list-auto, .list-auto li { 
   width: 100%; 
- display: block; 
+ /* display: block;  */
  position: relative; }
 .list-auto, .list-auto li {
    width: auto; 
@@ -87,14 +87,12 @@ input#control-nav {
 @media screen and (max-width: 767px) {
   header{
     text-align: center;
-    /* width: 118%; */
     overflow-x: hidden;
   }
   aside{
     background-color: white;
     border: none;
     position: relative;
-    left: 10%;
     height: 10px;
     width: 1px;
     /* position: fixed; */
@@ -140,7 +138,7 @@ input#control-nav {
 
   .control-nav { /* label icon */
     position: absolute;
-    right: 50px;
+    right: 10px;
     top: -45px;
     display: block;
     width: 30px;

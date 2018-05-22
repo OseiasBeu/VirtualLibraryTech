@@ -5,7 +5,7 @@ class Header extends Component{
     render(){
         return(
             <header>
-                <i class="fa fa-home"><img className="imagemLogo" src={logoIcone}/></i>
+                <i className="fa fa-home"><img className="imagemLogo" src={logoIcone}/></i>
                 <h1>Master<span>tech</span></h1>
             </header>
         )

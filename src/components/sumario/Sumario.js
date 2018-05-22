@@ -5,18 +5,18 @@ import './sumResponsivo.css';
 class Sumario extends Component{
     render(){
         return(
+
             <aside>
-               
-          <h1 class="float-l">
+          <h1 className="float-l">
             <a href=" " title="Titulo do Site">Sumário</a>
           </h1>
           
           <input type="checkbox" id="control-nav" />
-          <label for="control-nav" class="control-nav"></label>
-          <label for="control-nav" class="control-nav-close"></label>
+          <label for="control-nav" className="control-nav"></label>
+          <label for="control-nav" className="control-nav-close"></label>
 
-        <nav class="float-r">
-            <ul class="list-auto">
+        <nav className="float-r">
+            <ul className="list-auto">
             <li>
               <a href="#html" title="html">HTML</a>
             </li>
