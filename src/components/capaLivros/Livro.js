@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import {Link} from 'react-router-dom';
 import './Livro.css';
+import './ResponsiveLivro.css';
 
 
 class Livro extends Component{

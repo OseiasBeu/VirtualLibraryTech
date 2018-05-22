@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px) {
+    .capa{
+        width: 72%;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        border-top: 2px solid black;
+    }
+}
+  
+  @media screen and (max-width: 767px) {
+        .capa{
+            width: 72%;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        border-top: 2px solid black;
+    }
+}
