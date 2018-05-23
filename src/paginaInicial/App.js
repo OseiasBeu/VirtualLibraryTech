@@ -5,7 +5,7 @@ import Header from './../components/header/Header';
 import Sumario from './../components/sumario/Sumario';
 import Capapai from './../components/capa/Capa';
 import Rodape from './../components/footer/Rodape';
-import livroHTML from './../segundaPagina/FirstBook';
+import FirstBook from './../segundaPagina/FirstBook';
 
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
         <Sumario/>
         
         <Route path="/" exact component={()=> <Capapai/>}/>
-        <Route path="/livroHTML" exact component={()=> <livroHTML/>}/>        
+        <Route path="/FirstBook" exact component={()=> <FirstBook/>}/>        
 
         <Rodape/>
   

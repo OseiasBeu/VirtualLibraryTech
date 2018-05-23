@@ -18,6 +18,9 @@ class Sumario extends Component{
         <nav className="float-r">
             <ul className="list-auto">
             <li>
+              <a href="#html" title="html">Git/GitHub</a>
+            </li>
+            <li>
               <a href="#html" title="html">HTML</a>
             </li>
             <li>
@@ -27,8 +30,12 @@ class Sumario extends Component{
               <a href="#JavaScript" title="JavaScript">JavaScript</a>
             </li>
             <li>
+              <a href="#React" title="React">Angular JS</a>
+            </li>
+            <li>
               <a href="#React" title="React">REACT</a>
             </li>
+            
           </ul>
         </nav>
    </aside>

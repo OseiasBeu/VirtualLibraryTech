@@ -1,4 +1,5 @@
 import React,{Component}  from 'react';
+import Carroussel from '../components/carrossel/Carroussel'
 
 import './FirstBook.css';
 
@@ -6,7 +7,12 @@ class FirstBook extends Component{
     
     render(){
         return(
-            <p>Funciona....</p>
+            <div>
+            <Carroussel/>    
+                <p>Funciona....</p>
+                </div>
+          
+            
         );
     }
 }

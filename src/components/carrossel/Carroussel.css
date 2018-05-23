@@ -1,0 +1,13 @@
+.carousel{
+    height: 450px;
+    width: 100vh;
+
+}
+
+.slider-slide{
+    width: 80%;
+}
+
+.externo{
+    padding-top: 10px;
+}

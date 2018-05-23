@@ -1,11 +1,11 @@
 import React,{Component} from 'react';
 import './Rodape.css';
 import './ResponsiveRodape.css';
-import iconFace from './../img/icon-face.png';
-import iconYou from './../img/icon-youtube.png';
-import iconInsta from './../img/icon-insta.png';
-// import faceIcon from './../img/facebook.png';
-// import masterIcon from './../img/mastertech.png';
+import iconFace from './../img/footer/icon-face.png';
+import iconYou from './../img/footer/icon-youtube.png';
+import iconInsta from './../img/footer/icon-insta.png';
+// import faceIcon from './../img/footer/facebook.png';
+// import masterIcon from './../img/footer/mastertech.png';
 
 class Rodape extends Component{
     render(){
