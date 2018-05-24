@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Carroussel.css';
+import './ResponsiveCarroussel.css'
 import Carousell from 'nuka-carousel';
 // import com1 from './../img/banner/evento1.jpg';
 // import com2 from './../img/banner/evento2.jpg';
