@@ -26,9 +26,9 @@ class Rodape extends Component{
                 <ul className="listas">
                 <h3>Fique por dentro</h3>
                 <div className=" icones">
-                <li><img src={iconFace}/></li>
-                <li><img src={iconYou}/></li>
-                <li><img src={iconInsta}/></li>
+                <li><img alt="" src={iconFace}/></li>
+                <li><img alt="" src={iconYou}/></li>
+                <li><img alt="" src={iconInsta}/></li>
                 </div>
                 </ul>
 

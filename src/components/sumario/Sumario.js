@@ -18,10 +18,13 @@ class Sumario extends Component{
         <nav className="float-r">
             <ul className="list-auto">
             <li>
-              <a href="#html" title="html">Git/GitHub</a>
+              <a href="#html" title="html">Ideação e	Prototipação</a>
             </li>
             <li>
               <a href="#html" title="html">HTML</a>
+            </li>
+            <li>
+              <a href="#html" title="html">Git/GitHub</a>
             </li>
             <li>
               <a href="#css" title="css">CSS</a>

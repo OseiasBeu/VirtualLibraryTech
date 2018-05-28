@@ -9,10 +9,10 @@ class Livro extends Component{
         return(
             
                 <div className="capa">
-                <Link to="FirstBook"> <img src={this.props.src}/></Link>
-                 <img src={this.props.src}/>
-                 <img src={this.props.src}/>
-                 <img src={this.props.src}/>
+                <Link to="FirstBook"><img alt="" src={this.props.src}/></Link>
+                <Link to="FirstBook"><img alt="" src={this.props.src}/></Link>
+                <Link to="FirstBook"><img alt="" src={this.props.src}/></Link>
+                <Link to="FirstBook"><img alt="" src={this.props.src}/></Link>
                 </div>
                 
         );
