@@ -1,0 +1,20 @@
+.modal{
+    position: fixed;
+    background-color: blue;
+    margin:10px;
+    height:80vh;
+    width: 95%;
+    border: 2px solid black;
+    z-index: 9999;
+    opacity: 1;
+    transform: translateY(0); 
+    
+}
+
+.ativo{
+    /* opacity: 0;
+    transform: translateY(0);  */
+
+    display: none;
+
+}
