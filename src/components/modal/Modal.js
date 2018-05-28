@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Modal.css';
+import './ResponsiveModal.css';
 
 class Modal extends Component {
     render(){
@@ -11,7 +12,7 @@ class Modal extends Component {
 
         return(
             <section className={ModalCSS}>
-            <a id="fechar" onClick={this.props.alternarModal}><i class="fas fa-times"></i></a>
+            <a id="fechar" onClick={this.props.alternarModal}><i className="fas fa-times"></i></a>
                 <h2>Bem Vindo!</h2>
                 <p>Bem Vindo!</p>
             </section>             
