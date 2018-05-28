@@ -12,7 +12,8 @@ class Modal extends Component {
         return(
             <section className={ModalCSS}>
             <a id="fechar" onClick={this.props.alternarModal}><i class="fas fa-times"></i></a>
-                <p>Este modal está aqui</p>
+                <h2>Bem Vindo!</h2>
+                <p>Bem Vindo!</p>
             </section>             
         );
     }
